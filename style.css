@@ -1,0 +1,13 @@
+/* Custom utility classes that Tailwind doesn't provide by default */
+
+.shadow-soft {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.flower-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flower-card:hover {
+    /* Using the color code for accent-red for the custom shadow */
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(233, 102, 119, 0.2), 0 8px 10px -6px rgba(233, 102, 119, 0.1);
+}
